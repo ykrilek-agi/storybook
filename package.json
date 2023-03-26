@@ -19,7 +19,11 @@
     "test-storybook": "test-storybook",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=7afc2884a6d4"
+  },
+  "storybook": {
+    "url": "https://642041036c4b16571521a3f1-buiuextjvd.chromatic.com/"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +55,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-coverage": "^0.0.8",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
@@ -66,5 +71,7 @@
     "chromatic": "^6.17.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.76.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook@0.1.0"
 }
