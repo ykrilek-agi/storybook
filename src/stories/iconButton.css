@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-.storybook-button {
+.storybook-icon-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
@@ -9,21 +9,21 @@
   display: inline-block;
   line-height: 1;
 }
-.storybook-button--primary {
+.storybook-icon-button--primary {
   color: white;
   background-color: tomato;
 }
-.storybook-button--secondary {
+.storybook-icon-button--secondary {
   color: #333;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
-.storybook-button--small {
+.storybook-icon-button--small {
   font-size: 12px;
 }
-.storybook-button--medium {
+.storybook-icon-button--medium {
   font-size: 14px;
 }
-.storybook-button--large {
+.storybook-icon-button--large {
   font-size: 16px;
 }

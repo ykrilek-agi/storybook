@@ -6,11 +6,11 @@ import './iconButton.css';
  * Primary UI component for user interaction
  */
 export const IconButton = ({ primary, backgroundColor, size, label, icon, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary ? 'storybook-icon-button--primary' : 'storybook-icon-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-icon-button', `storybook-icon-button--${size}`, mode].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
