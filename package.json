@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=7afc2884a6d4"
+    "chromatic": "npx chromatic --only-changed --untraced \"package.json\""
   },
   "storybook": {
     "url": "https://642041036c4b16571521a3f1-buiuextjvd.chromatic.com/"
