@@ -11,7 +11,7 @@
 }
 .storybook-icon-button--primary {
   color: white;
-  background-color: tomato;
+  background-color: red;
 }
 .storybook-icon-button--secondary {
   color: #333;
